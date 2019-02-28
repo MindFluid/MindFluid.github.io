@@ -2,7 +2,7 @@ var a,b,h,x,y,ox,oy,t,ot,d,od;
 var centerX,centerY;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth / 1.2, windowHeight / 1.2);
   colorMode(HSB,360);
   
   centerX = width / 2;
