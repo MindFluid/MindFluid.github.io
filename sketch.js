@@ -9,6 +9,10 @@ function setup() {
   centerY = height / 2;
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth / 1.2, windowHeight / 1.2);
+}
+
 function draw() {
   background(50);
   
